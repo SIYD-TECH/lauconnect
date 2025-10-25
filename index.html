@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LauConnect</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
-<body>
-    
+<body class="bg-[#fefefe]">
+    <header>
+        <nav class="flex items-center justify-between px-[70px] py-[20px]">
+            <div class="flex items-center cursor-pointer">
+                <img src="/assets/la logo.png" alt="logo" width="70">
+                <p class="text-[#800000] font-bold text-[1.7rem]">LAUConnect</p>
+            </div>
+
+            <div>
+                <ul class="flex text-[#800000] text-[18px] gap-[40px] font-semibold">
+                   <li><a href="">Home</a></li>
+                    <li><a href="">Clubs</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Mobile Menu -->
+             <div class="hidden">
+                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
+                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
+                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
+             </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+         <section style="background-image: url('assets/hero\ image.webp'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: #4c171d; background-blend-mode: overlay;" class="h-[90vh] ">
+            <div>
+                <h1>Discover clubs and societies at LAUTECH</h1>
+                <p>Connect with your community, explore your passions and make your university experience unforgetable</p>
+                <p>Explore Clubs</p>
+            </div>
+         </section>
+    </main>
 </body>
+<script src="./script.js"></script>
 </html>
