@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,356 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="bg-[#fefefe]">
-    <header>
-        <nav class="flex items-center justify-between px-[70px] py-[20px]">
+
+<script>
+    tailwind.config = {
+        darkMode: 'class'
+    }
+</script>
+
+
+<body class="bg-[#fefefe] dar:bg-black">
+    <header class="sticky top-0 bg-white shadow-md z-50">
+        <nav class="flex items-center justify-between px-4 lg:px-[70px] py-4" >
+
+            <!-- Logo + Brand -->
             <div class="flex items-center cursor-pointer">
-                <img src="/assets/la logo.png" alt="logo" width="70">
-                <p class="text-[#800000] font-bold text-[1.7rem]">LAUConnect</p>
+                <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
+                <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
             </div>
 
-            <div>
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:block">
                 <ul class="flex text-[#800000] text-[18px] gap-[40px] font-semibold">
-                   <li><a href="">Home</a></li>
-                    <li><a href="">Clubs</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home" class="hover:text-[#c0a062] transition-colors duration-300">Home</a></li>
+                    <li><a href="#clubs" class="hover:text-[#c0a062] transition-colors duration-300">Clubs</a></li>
+                    <li><a href="#about" class="hover:text-[#c0a062] transition-colors duration-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-[#c0a062] transition-colors duration-300">Contact</a></li>
                 </ul>
             </div>
 
-            <!-- Mobile Menu -->
-             <div class="hidden">
-                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
-                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
-                <div class="w-[40px] h-[5px] bg-black mb-2 rounded-lg"></div>
-             </div>
+            <!-- Mobile Menu Icon -->
+            <div class="lg:hidden flex flex-col gap-1.5 cursor-pointer group">
+                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
+                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
+                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
+            </div>
+
         </nav>
     </header>
 
-    <main>
+
+    <main id="home">
         <!-- Hero Section -->
-         <section style="background-image: url('assets/hero\ image.webp'); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: #4c171d; background-blend-mode: overlay;" class="h-[90vh] ">
-            <div>
-                <h1>Discover clubs and societies at LAUTECH</h1>
-                <p>Connect with your community, explore your passions and make your university experience unforgetable</p>
-                <p>Explore Clubs</p>
+        <section style="background-image: url('assets/hero image.webp');
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-color: #2d0509;
+                 background-blend-mode: overlay;"
+            class="min-h-[80vh] py-20 lg:py-40 px-4 text-white flex items-center justify-center">
+
+            <div class="max-w-3xl text-center">
+                <h1 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+                    Discover Clubs and Societies at LAUTECH
+                </h1>
+                <p class="text-lg md:text-2xl font-medium text-gray-100 mb-8">
+                    Connect with your community, explore your passions, and make your university experience
+                    unforgettable.
+                </p>
+                <button
+                    class="mt-4 bg-[#c0a062] cursor-pointer text-[#2d0509] px-8 py-3 rounded-lg font-semibold hover:bg-[#d8b878] transition-all duration-300 shadow-md">
+                    Explore Clubs
+                </button>
             </div>
-         </section>
+        </section>
+
+
+        <!-- Clubs section -->
+        <section id="clubs" class="bg-gray-50 py-20 px-4 lg:px-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#800000] mb-3">Campus Clubs & Societies</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Discover active student clubs across LAUTECH. Connect, collaborate, and grow with others who share
+                    your
+                    passion.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- JCIN LAUTECH -->
+                <div
+                    class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-[#800000] font-bold text-xl mb-3">JCIN LAUTECH</h3>
+                        <p class="text-gray-600 mb-6">
+                            Youth-led global network empowering students to lead and serve.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
+                            Leadership & Service
+                        </span>
+                        <button
+                            class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- NAOSS LAUTECH -->
+                <div
+                    class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-[#800000] font-bold text-xl mb-3">NAOSS LAUTECH</h3>
+                        <p class="text-gray-600 mb-6">
+                            Promoting cultural identity, unity, and student welfare.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
+                            Indigenous & Cultural
+                        </span>
+                        <button
+                            class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DFC LAUTECH -->
+                <div
+                    class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-[#800000] font-bold text-xl mb-3">DFC LAUTECH</h3>
+                        <p class="text-gray-600 mb-6">
+                            Driving innovation and community growth through development projects.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
+                            Technology & Impact
+                        </span>
+                        <button
+                            class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MAN O' WAR -->
+                <div
+                    class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-[#800000] font-bold text-xl mb-3">MAN O' WAR LAUTECH</h3>
+                        <p class="text-gray-600 mb-6">
+                            Promoting discipline, resilience, and leadership through training.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
+                            Leadership & Service
+                        </span>
+                        <button
+                            class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- See More Clubs Button -->
+            <div class="text-center mt-16">
+                <a href="clubs.html"
+                    class="inline-block bg-[#800000] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#a52a2a] transition transform hover:-translate-y-1 duration-300">
+                    See More Clubs →
+                </a>
+            </div>
+        </section>
+
+
+
+
+        <!-- About Section -->
+        <section id="about" class="bg-white py-16 px-6 md:px-12">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left Side: Image -->
+                <div class="relative">
+                    <img src="./assets/Student-Club-2.jpg" alt="Students collaborating" class="rounded-2xl shadow-lg" />
+                    <div
+                        class="absolute -bottom-6 -right-6 bg-[#FFD700] text-[#800000] font-semibold px-6 py-3 rounded-lg shadow-md">
+                        #ConnectWithClubs
+                    </div>
+                </div>
+
+                <!-- Right Side: Text -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#800000] mb-6">
+                        About <span class="text-[#FFD700]">LAUConnect</span>
+                    </h2>
+
+                    <p class="text-gray-700 mb-5 leading-relaxed">
+                        At <span class="font-semibold text-[#800000]">LAUConnect</span>, we believe university life
+                        is more than lectures and exams — it’s about growth, connection, and community.
+                    </p>
+
+                    <p class="text-gray-700 mb-5 leading-relaxed">
+                        Many LAUTECH students miss out on opportunities to join clubs and societies simply because
+                        they don’t know where to start. LAUConnect bridges that gap — making it easier for students
+                        to <span class="font-semibold text-[#800000]">discover, explore, and connect</span> with
+                        clubs that match their interests and passions.
+                    </p>
+
+                    <p class="text-gray-700 leading-relaxed mb-8">
+                        Whether you’re into technology, leadership, creativity, or service, LAUConnect brings every
+                        campus club and society into one place — helping you find your tribe, develop new skills, and
+                        make meaningful connections.
+                    </p>
+
+                    <a href="#clubs"
+                        class="inline-block bg-[#800000] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#990000] transition duration-200">
+                        Explore Clubs
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-300 w-[90%] mx-auto"></div>
+
+        <!-- Contact Us -->
+        <section class=" py-16 px-6 md:px-12" id="contact">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#800000] mb-4">Contact the LAUConnect Team</h2>
+                <p class="text-gray-700 mb-10">
+                    We’re here to help you get connected! If you have questions, feedback, or would like your club
+                    to be listed on LAUConnect, reach out to us below.
+                </p>
+            </div>
+
+            <form class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                        <input type="text" id="name" placeholder="Your name"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FFD700]" />
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">University Email</label>
+                        <input type="email" id="email" placeholder="you@stu.lautech.edu.ng"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FFD700]" />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                    <input type="text" id="subject" placeholder="Message subject"
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FFD700]" />
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message..."
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FFD700]"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-[#800000] text-white font-semibold py-3 rounded-lg hover:bg-[#990000] transition duration-200">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+
+        <!-- Footer Section-->
+        <footer class="bg-gray-100 text-[#800000] py-16 px-6 lg:px-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <!-- About Section -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="/assets/la logo.png" alt="LAUConnect Logo" width="50" class="mr-2">
+                        <h3 class="text-2xl font-bold">LAUConnect</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        LAUConnect bridges the gap between students and campus communities.
+                        Discover clubs, societies, and opportunities to grow beyond academics at LAUTECH.
+                    </p>
+
+                    <!-- Personal Social Links -->
+                    <div class="flex space-x-4 mt-5">
+                        <a href="https://github.com/yourusername" target="_blank"
+                            class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank"
+                            class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/yourusername" target="_blank"
+                            class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" class="hover:text-[#c0a062] transition-colors">Home</a></li>
+                        <li><a href="#clubs" class="hover:text-[#c0a062] transition-colors">Clubs</a></li>
+                        <li><a href="#about" class="hover:text-[#c0a062] transition-colors">About</a></li>
+                        <li><a href="#contact" class="hover:text-[#c0a062] transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-[#c0a062] transition-colors">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Contact Us</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Email: <a href="mailto:info@lauconnect.com"
+                                class="hover:text-[#c0a062]">info@lauconnect.com</a>
+                        </li>
+                        <li>Phone: <a href="tel:+2348012345678" class="hover:text-[#c0a062]">+234 801 234 5678</a></li>
+                        <li>Address: LAUTECH Campus, Ogbomoso, Nigeria</li>
+                        <li>Office Hours: Mon - Fri, 9am - 4pm</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Stay Updated</h4>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Get updates about new clubs, events, and opportunities on campus.
+                    </p>
+                    <form class="flex flex-col sm:flex-row items-center gap-2">
+                        <input type="email" placeholder="Enter your email"
+                            class="w-full sm:w-auto flex-grow p-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[#800000] text-sm">
+                        <button type="submit"
+                            class="bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a52a2a] transition text-sm font-semibold">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-300 mt-12 pt-6 text-center text-gray-500 text-sm">
+                <p>© <span id="year"></span> LAUConnect. Built by
+                    <a href="https://github.com/yourusername" target="_blank"
+                        class="text-[#800000] font-semibold hover:text-[#c0a062]">DEV SIYD</a>.
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+
     </main>
 </body>
 <script src="./script.js"></script>
+
 </html>
