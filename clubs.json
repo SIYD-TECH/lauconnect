@@ -1,0 +1,110 @@
+[
+  {
+    "id": "redCross",
+    "name": "Red Cross",
+    "image": "/assets/red-cross.jpg",
+    "description": "Dedicated to humanitarian services, first aid, and campus emergency response."
+  },
+  {
+    "id": "cadet",
+    "name": "Cadet Corps",
+    "image": "/assets/cadet.jpg",
+    "description": "Instills discipline, leadership, and teamwork through drills and service."
+  },
+  {
+    "id": "naossOgun",
+    "name": "NAOSS (Ogun State)",
+    "image": "/assets/naoss-ogun.jpg",
+    "description": "Represents Ogun State students in LAUTECH and promotes unity and welfare."
+  },
+  {
+    "id": "naossOsun",
+    "name": "NAOSS (Osun State)",
+    "image": "/assets/naoss-osun.jpg",
+    "description": "Supports Osun State students through events, welfare, and cultural heritage."
+  },
+  {
+    "id": "fossu",
+    "name": "FOSSU",
+    "image": "/assets/fossu.jpg",
+    "description": "Federation of Oyo State Students Union – promoting unity among Oyo indigenes."
+  },
+  {
+    "id": "fibsu",
+    "name": "FIBSU",
+    "image": "/assets/fibsu.jpg",
+    "description": "Federation of Ibarapa Students Union – connecting students of Ibarapa descent."
+  },
+  {
+    "id": "nlv",
+    "name": "NLV",
+    "image": "/assets/nlv.jpg",
+    "description": "Nigerian League of Voters – civic education and political engagement on campus."
+  },
+  {
+    "id": "liberal",
+    "name": "Liberal Club",
+    "image": "/assets/liberal.jpg",
+    "description": "A social and welfare group advocating student empowerment and equality."
+  },
+  {
+    "id": "manOWar",
+    "name": "Man O’ War",
+    "image": "/assets/manowar.jpg",
+    "description": "Building courage, leadership, and community defense through paramilitary training."
+  },
+  {
+    "id": "jci",
+    "name": "JCI",
+    "image": "/assets/jci.jpg",
+    "description": "Junior Chamber International – inspiring young leaders through impactful projects."
+  },
+  {
+    "id": "usf",
+    "name": "USF",
+    "image": "/assets/usf.jpg",
+    "description": "Uniting students of faith through outreach, prayer, and charity programs."
+  },
+  {
+    "id": "rotaract",
+    "name": "Rotaract Club",
+    "image": "/assets/rotaract.jpg",
+    "description": "A service-oriented club developing leadership and professional skills."
+  },
+  {
+    "id": "chess",
+    "name": "Chess Club",
+    "image": "/assets/chess.jpg",
+    "description": "Sharpening strategic thinking and focus through friendly tournaments."
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain Club",
+    "image": "/assets/blockchain.jpg",
+    "description": "Exploring blockchain technology, cryptocurrency, and Web3 innovation."
+  },
+  {
+    "id": "gdg",
+    "name": "GDG LAUTECH",
+    "image": "/assets/gdg.jpg",
+    "description": "Google Developer Group fostering developer learning and community growth."
+  },
+  {
+    "id": "dfc",
+    "name": "Developer Students Club (DSC/DFC)",
+    "image": "/assets/dfc.jpg",
+    "description": "Empowering students with tech skills through workshops and collaboration."
+  },
+  {
+    "id": "aref",
+    "name": "AREF",
+    "image": "/assets/aref.jpg",
+    "description": "Advocates for educational reform and academic excellence on campus."
+  },
+  {
+    "id": "trafficControl",
+    "name": "Traffic Control Unit",
+    "image": "/assets/traffic-control.jpg",
+    "description": "Maintains order and safety in vehicular and pedestrian movement around campus."
+  }
+]

@@ -23,3 +23,4 @@ document.getElementById("mobile").addEventListener("click", () => {
   document.getElementById("disappear").classList.toggle("hidden");
   // document.getElementById("sidebar").classList.add("right-[0]");
 });
+
