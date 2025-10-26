@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Clubs | LauConnect</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#fefefe] text-gray-800">
+
+    <header class="sticky top-0 bg-white shadow-md z-50">
+        <nav class="flex items-center justify-between  lg:px-[70px] py-4">
+
+            <!-- Logo + Brand -->
+            <div class="flex items-center cursor-pointer">
+                <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
+                <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:block">
+                <ul class="flex text-[#800000] text-[18px] gap-[40px] font-semibold">
+                    <li><a href="#home" class="hover:text-[#c0a062] transition-colors duration-300">Home</a></li>
+                    <li><a href="#clubs" class="hover:text-[#c0a062] transition-colors duration-300">Clubs</a></li>
+                    <li><a href="#about" class="hover:text-[#c0a062] transition-colors duration-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-[#c0a062] transition-colors duration-300">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Mobile Menu Icon -->
+            <div id="mobile" class="lg:hidden flex flex-col gap-1.5 cursor-pointer group relative mr-10">
+                <span id="topx" class=" w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
+                <span id="bottomx" class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
+                <span id="disappear"
+                    class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="bg-[#800000] text-white py-16 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-3">Explore Clubs</h1>
+        <p class="text-lg text-gray-200 max-w-xl mx-auto">Discover vibrant communities, connect with peers, and make
+            meaningful contributions across various student clubs.</p>
+    </section>
+
+    <!-- ====== FILTER + SEARCH SECTION ====== -->
+    <section class="bg-gray-100 py-6 px-4 flex flex-col md:flex-row gap-4 justify-center items-center shadow-sm">
+        <div
+            class="flex items-center w-full md:w-1/2 bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
+            <input type="text" placeholder="Search clubs..."
+                class="w-full px-4 py-2 outline-none text-gray-700 placeholder-gray-500" />
+            <button class="bg-[#800000] text-white px-5 py-2 hover:bg-[#a64b4b] transition">Search</button>
+        </div>
+
+        <select
+            class="w-full md:w-1/4 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[#800000]">
+            <option value="all">All Categories</option>
+            <option value="tech">Tech</option>
+            <option value="arts">Arts</option>
+            <option value="sports">Sports</option>
+            <option value="social">Social</option>
+        </select>
+    </section>
+
+    <!-- ====== CLUBS GRID SECTION ====== -->
+    <section class="py-16 px-6 max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <!-- Club Card 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
+            <img src="https://images.unsplash.com/photo-1522204501921-79a3e2e48d4a?w=600" alt="Tech Club"
+                class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-[#800000] mb-2">Tech Innovators</h3>
+                <p class="text-gray-600 text-sm mb-4">A community for students interested in coding, robotics, and AI.
+                </p>
+                <a href="#"
+                    class="inline-block bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a64b4b] transition">Join
+                    Now</a>
+            </div>
+        </div>
+
+        <!-- Club Card 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
+            <img src="https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=600" alt="Art Club"
+                class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-[#800000] mb-2">Creative Arts Club</h3>
+                <p class="text-gray-600 text-sm mb-4">Explore painting, music, and performing arts with fellow
+                    creatives.</p>
+                <a href="#"
+                    class="inline-block bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a64b4b] transition">Join
+                    Now</a>
+            </div>
+        </div>
+
+        <!-- Club Card 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
+            <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?w=600" alt="Sports Club"
+                class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-[#800000] mb-2">Sports Club</h3>
+                <p class="text-gray-600 text-sm mb-4">From football to track, stay active and competitive with peers.
+                </p>
+                <a href="#"
+                    class="inline-block bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a64b4b] transition">Join
+                    Now</a>
+            </div>
+        </div>
+
+        <!-- Club Card 4 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600" alt="Social Club"
+                class="w-full h-40 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-[#800000] mb-2">Social Impact Club</h3>
+                <p class="text-gray-600 text-sm mb-4">Join hands to make a positive impact through volunteering and
+                    outreach.</p>
+                <a href="#"
+                    class="inline-block bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a64b4b] transition">Join
+                    Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section-->
+    <footer class="bg-gray-100 text-[#800000] py-16 px-6 lg:px-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    
+            <!-- About Section -->
+            <div>
+                <div class="flex items-center mb-4">
+                    <img src="/assets/la logo.png" alt="LAUConnect Logo" width="50" class="mr-2">
+                    <h3 class="text-2xl font-bold">LAUConnect</h3>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    LAUConnect bridges the gap between students and campus communities.
+                    Discover clubs, societies, and opportunities to grow beyond academics at LAUTECH.
+                </p>
+    
+                <!-- Personal Social Links -->
+                <div class="flex space-x-4 mt-5">
+                    <a href="https://github.com/yourusername" target="_blank"
+                        class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"
+                        class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"
+                        class="text-xl hover:text-[#c0a062] transition"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+    
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#home" class="hover:text-[#c0a062] transition-colors">Home</a></li>
+                    <li><a href="#clubs" class="hover:text-[#c0a062] transition-colors">Clubs</a></li>
+                    <li><a href="#about" class="hover:text-[#c0a062] transition-colors">About</a></li>
+                    <li><a href="#contact" class="hover:text-[#c0a062] transition-colors">Contact</a></li>
+                    <li><a href="#" class="hover:text-[#c0a062] transition-colors">FAQs</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Contact Us</h4>
+                <ul class="space-y-2 text-sm">
+                    <li>Email: <a href="mailto:info@lauconnect.com" class="hover:text-[#c0a062]">info@lauconnect.com</a>
+                    </li>
+                    <li>Phone: <a href="tel:+2348012345678" class="hover:text-[#c0a062]">+234 801 234 5678</a></li>
+                    <li>Address: LAUTECH Campus, Ogbomoso, Nigeria</li>
+                    <li>Office Hours: Mon - Fri, 9am - 4pm</li>
+                </ul>
+            </div>
+    
+            <!-- Newsletter -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-[#c0a062]">Stay Updated</h4>
+                <p class="text-gray-600 text-sm mb-4">
+                    Get updates about new clubs, events, and opportunities on campus.
+                </p>
+                <form class="flex flex-col sm:flex-row items-center gap-2">
+                    <input type="email" placeholder="Enter your email"
+                        class="w-full sm:w-auto flex-grow p-2 rounded-lg border border-gray-300 focus:outline-none focus:border-[#800000] text-sm">
+                    <button type="submit"
+                        class="bg-[#800000] text-white px-4 py-2 rounded-lg hover:bg-[#a52a2a] transition text-sm font-semibold">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+    
+        </div>
+    
+        <!-- Divider -->
+        <div class="border-t border-gray-300 mt-12 pt-6 text-center text-gray-500 text-sm">
+            <p>© <span id="year"></span> LAUConnect. Built by
+                <a href="https://github.com/yourusername" target="_blank"
+                    class="text-[#800000] font-semibold hover:text-[#c0a062]">DEV SIYD</a>.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

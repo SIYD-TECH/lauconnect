@@ -18,7 +18,7 @@
 
 <body class="bg-[#fefefe] dar:bg-black">
     <header class="sticky top-0 bg-white shadow-md z-50">
-        <nav class="flex items-center justify-between px-4 lg:px-[70px] py-4" >
+        <nav class="flex items-center justify-between  lg:px-[70px] py-4">
 
             <!-- Logo + Brand -->
             <div class="flex items-center cursor-pointer">
@@ -37,14 +37,54 @@
             </div>
 
             <!-- Mobile Menu Icon -->
-            <div class="lg:hidden flex flex-col gap-1.5 cursor-pointer group">
-                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
-                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
-                <span class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
+            <div id="mobile" class="lg:hidden flex flex-col gap-1.5 cursor-pointer group relative mr-10">
+                <span id="topx"
+                    class=" w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
+                <span id="bottomx"
+                    class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
+                <span id="disappear" class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062] transition-all"></span>
             </div>
 
         </nav>
     </header>
+
+
+    <!-- Sidebar -->
+    <aside id="sidebar"
+        class="fixed top-0 left-[-100%] h-full w-64 bg-[#800000] text-white flex flex-col justify-between shadow-lg transition-all duration-300 overflow-hidden z-50">
+
+        <!-- Logo -->
+        <div>
+            <div class="flex items-center px-6 py-6 border-b border-[#a05a5a]">
+                <img src="assets/la logo.png" alt="LAUConnect Logo" class="w-20 h-10">
+                <h2 class="text-2xl font-bold tracking-wide whitespace-nowrap">LAUConnect</h2>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="mt-6 flex flex-col">
+                <a href="#home" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    🏠 <span class="link-text">Home</span>
+                </a>
+                <a href="#clubs" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    🎓 <span class="link-text">Clubs</span>
+                </a>
+                <a href="#about" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    ℹ️ <span class="link-text">About</span>
+                </a>
+                <a href="#contact" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    📞 <span class="link-text">Contact</span>
+                </a>
+            </nav>
+        </div>
+
+        <!-- Footer -->
+        <div class="px-6 py-6 border-t border-[#a05a5a] text-sm">
+            <p>© 2025 LAUConnect</p>
+            <p class="text-[#ffd700]">Building Community</p>
+        </div>
+    </aside>
+
+
 
 
     <main id="home">
@@ -183,7 +223,8 @@
             <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 <!-- Left Side: Image -->
                 <div class="relative">
-                    <img src="./assets/Student-Club-2.jpg" alt="Students collaborating" class="rounded-2xl shadow-lg" />
+                    <img src="./assets/Student-Club-2.jpg" alt="Students collaborating"
+                        class="rounded-2xl shadow-lg " />
                     <div
                         class="absolute -bottom-6 -right-6 bg-[#FFD700] text-[#800000] font-semibold px-6 py-3 rounded-lg shadow-md">
                         #ConnectWithClubs
@@ -198,12 +239,12 @@
 
                     <p class="text-gray-700 mb-5 leading-relaxed">
                         At <span class="font-semibold text-[#800000]">LAUConnect</span>, we believe university life
-                        is more than lectures and exams — it’s about growth, connection, and community.
+                        is more than lectures and exams,it’s about growth, connection, and community.
                     </p>
 
                     <p class="text-gray-700 mb-5 leading-relaxed">
                         Many LAUTECH students miss out on opportunities to join clubs and societies simply because
-                        they don’t know where to start. LAUConnect bridges that gap — making it easier for students
+                        they don’t know where to start. LAUConnect bridges that gap making it easier for students
                         to <span class="font-semibold text-[#800000]">discover, explore, and connect</span> with
                         clubs that match their interests and passions.
                     </p>
@@ -357,6 +398,9 @@
 
 
     </main>
+
+
+
 </body>
 <script src="./script.js"></script>
 
