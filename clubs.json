@@ -2,7 +2,7 @@
   {
     "id": "redCross",
     "name": "Red Cross",
-    "image": "/assets/red-cross.jpg",
+    "image": "/assets/download.png",
     "description": "Dedicated to humanitarian services, first aid, and campus emergency response."
   },
   {
@@ -14,14 +14,8 @@
   {
     "id": "naossOgun",
     "name": "NAOSS (Ogun State)",
-    "image": "/assets/naoss-ogun.jpg",
+    "image": "/assets/ogun.jpg",
     "description": "Represents Ogun State students in LAUTECH and promotes unity and welfare."
-  },
-  {
-    "id": "naossOsun",
-    "name": "NAOSS (Osun State)",
-    "image": "/assets/naoss-osun.jpg",
-    "description": "Supports Osun State students through events, welfare, and cultural heritage."
   },
   {
     "id": "fossu",
@@ -30,9 +24,15 @@
     "description": "Federation of Oyo State Students Union – promoting unity among Oyo indigenes."
   },
   {
+    "id": "naossOsun",
+    "name": "NAOSS (Osun State)",
+    "image": "/assets/osun.jpg",
+    "description": "Supports Osun State students through events, welfare, and cultural heritage."
+  },
+  {
     "id": "fibsu",
     "name": "FIBSU",
-    "image": "/assets/fibsu.jpg",
+    "image": "/assets/ibadan.jpg",
     "description": "Federation of Ibarapa Students Union – connecting students of Ibarapa descent."
   },
   {
@@ -50,13 +50,13 @@
   {
     "id": "manOWar",
     "name": "Man O’ War",
-    "image": "/assets/manowar.jpg",
+    "image": "/assets/man o war.jpg",
     "description": "Building courage, leadership, and community defense through paramilitary training."
   },
   {
     "id": "jci",
     "name": "JCI",
-    "image": "/assets/jci.jpg",
+    "image": "/assets/jci.png",
     "description": "Junior Chamber International – inspiring young leaders through impactful projects."
   },
   {
@@ -68,7 +68,7 @@
   {
     "id": "rotaract",
     "name": "Rotaract Club",
-    "image": "/assets/rotaract.jpg",
+    "image": "/assets/rotract.jpg",
     "description": "A service-oriented club developing leadership and professional skills."
   },
   {
@@ -80,13 +80,13 @@
   {
     "id": "blockchain",
     "name": "Blockchain Club",
-    "image": "/assets/blockchain.jpg",
+    "image": "./assets/blockchain.jpg",
     "description": "Exploring blockchain technology, cryptocurrency, and Web3 innovation."
   },
   {
     "id": "gdg",
     "name": "GDG LAUTECH",
-    "image": "/assets/gdg.jpg",
+    "image": "/assets/gdg.png",
     "description": "Google Developer Group fostering developer learning and community growth."
   },
   {
@@ -104,7 +104,7 @@
   {
     "id": "trafficControl",
     "name": "Traffic Control Unit",
-    "image": "/assets/traffic-control.jpg",
+    "image": "/assets/traffic.jpg",
     "description": "Maintains order and safety in vehicular and pedestrian movement around campus."
   }
 ]
