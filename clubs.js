@@ -33,14 +33,13 @@ async function intializeApp() {
   }
 
   searchInput.addEventListener('input', () => {
-    const search = searchInput.value.trim().toLowerCase()
+    const search = searchInput.value.trim().toLowerCase() // accepts the input and converts to lowercase.
    const filterClubs =  allClubs.filter(club => {
-      const nameMatches = club.name.toLowerCase().includes(search);
-      // const nMatches = club.name.toLowerCase().includes(search);
+      const nameMatches = club.name.toLowerCase().includes(search); // c
 
       return nameMatches;
     })
-    displayClubs(filterClubs)
+    displayClubs(filterClubs) // f
   })
 
   displayClubs(allClubs) // calls the function and accepts the parameter allclubs that was fetched

@@ -46,7 +46,7 @@
       }
     ],
     "socials": {
-      "instagram": "",
+      "instagram": ".",
       "twitter": "",
       "linkedin": ""
     }
@@ -261,7 +261,7 @@
   },
   {
     "id": "dfc",
-    "name": "GDSC LAUTECH",
+    "name": "DFC LAUTECH",
     "image": "/assets/dfc.jpg",
     "description": "Empowering students with tech skills through workshops and collaboration.",
     "about": "Google Developer Student Clubs (GDSC) LAUTECH is a university-based community group for students interested in technology. Our mission is to bridge the gap between theory and practice by providing a platform for students to learn new skills, build real-world solutions for local problems, and grow as developers. We are open to all students, from beginners to advanced.",
