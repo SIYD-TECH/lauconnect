@@ -3,108 +3,286 @@
     "id": "redCross",
     "name": "Red Cross",
     "image": "/assets/download.png",
-    "description": "Dedicated to humanitarian services, first aid, and campus emergency response."
+    "description": "Dedicated to humanitarian services, first aid, and campus emergency response.",
+    "about": "The Nigerian Red Cross Society, LAUTECH Detachment, is a humanitarian organization driven by the mission to alleviate human suffering. Our members are trained volunteers committed to providing first aid during campus events, organizing health and safety campaigns, and responding to emergencies. We uphold the principles of humanity, impartiality, and neutrality in all our services.",
+    "activities": [
+      {
+        "title": "First Aid & Emergency Response",
+        "description": "Providing immediate medical assistance during sports, ceremonies, and other campus events to ensure student safety."
+      },
+      {
+        "title": "Health & Safety Campaigns",
+        "description": "Organizing blood donation drives, health awareness talks, and safety drills to promote a healthy campus environment."
+      },
+      {
+        "title": "Humanitarian Service",
+        "description": "Engaging in community outreach, volunteering, and supporting vulnerable individuals within and outside the university."
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/nrclautech",
+      "twitter": "https://twitter.com/nrclautech",
+      "linkedin": ""
+    }
   },
   {
     "id": "cadet",
     "name": "Cadet Corps",
     "image": "/assets/cadet.jpg",
-    "description": "Instills discipline, leadership, and teamwork through drills and service."
+    "description": "Instills discipline, leadership, and teamwork through drills and service.",
+    "about": "The LAUTECH Cadet Corps is a paramilitary student organization that focuses on building discipline, leadership, and a sense of duty. Members undergo rigorous physical and mental training, including drills and parades, to prepare them for leadership roles. We are primarily responsible for maintaining order and providing security protocol during official university functions like matriculation and convocation.",
+    "activities": [
+      {
+        "title": "Drills & Paramilitary Training",
+        "description": "Instilling discipline, physical fitness, and teamwork through structured drills, parades, and endurance training."
+      },
+      {
+        "title": "Event Security & Protocol",
+        "description": "Ensuring order, providing security, and carrying out ceremonial duties during major university functions."
+      },
+      {
+        "title": "Leadership Development",
+        "description": "Grooming members for leadership roles through a structured command system and practical responsibilities."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "naossOgun",
     "name": "NAOSS (Ogun State)",
     "image": "/assets/ogun.jpg",
-    "description": "Represents Ogun State students in LAUTECH and promotes unity and welfare."
+    "description": "Represents Ogun State students in LAUTECH and promotes unity and welfare.",
+    "about": "The National Association of Ogun State Students (NAOSS), LAUTECH Chapter, is the official body representing all indigenous students of Ogun State. Our mission is to foster unity, promote our rich cultural heritage, and advocate for the academic and social welfare of our members. We serve as a vital link between our students, the university management, and the Ogun State government.",
+    "activities": [
+      {
+        "title": "Member Welfare & Support",
+        "description": "Providing academic, financial, and social support to ensure the well-being and success of Ogun State students."
+      },
+      {
+        "title": "Cultural Promotion",
+        "description": "Organizing cultural days, tutorials, and events to celebrate and preserve the unique heritage of Ogun State."
+      },
+      {
+        "title": "Advocacy & Representation",
+        "description": "Acting as the official voice for our members and liaising with the university and state government on key issues."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "fossu",
     "name": "FOSSU",
     "image": "/assets/fossu.jpg",
-    "description": "Federation of Oyo State Students Union – promoting unity among Oyo indigenes."
+    "description": "Federation of Oyo State Students Union – promoting unity among Oyo indigenes.",
+    "about": "The Federation of Oyo State Students' Union (FOSSU) is the umbrella body for all students of Oyo State origin in LAUTECH. We are committed to uniting our members, celebrating our shared cultural identity, and ensuring their welfare. FOSSU actively engages in programs that support academic excellence and provide a strong sense of community for Oyo indigenes on campus.",
+    "activities": [
+      {
+        "title": "Student Welfare",
+        "description": "Championing the academic and social needs of Oyo State students through support systems and intervention programs."
+      },
+      {
+        "title": "Cultural Heritage",
+        "description": "Showcasing the rich culture of Oyo State through annual cultural festivals, events, and educational programs."
+      },
+      {
+        "title": "Advocacy & Unity",
+        "description": "Serving as a unified voice for all members and fostering a strong network among students from Oyo State."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "naossOsun",
     "name": "NAOSS (Osun State)",
     "image": "/assets/osun.jpg",
-    "description": "Supports Osun State students through events, welfare, and cultural heritage."
+    "description": "Supports Osun State students through events, welfare, and cultural heritage.",
+    "about": "The National Association of Osun State Students (NAOSS), LAUTECH Chapter, is dedicated to the progress and unity of all students from Osun State. We strive to create a home away from home by promoting our cultural values, providing academic support, and advocating for the welfare of our members. Our association is a platform for personal development, networking, and collective empowerment.",
+    "activities": [
+      {
+        "title": "Welfare & Academic Support",
+        "description": "Implementing programs that cater to the academic needs and overall well-being of our members on campus."
+      },
+      {
+        "title": "Cultural Preservation",
+        "description": "Organizing events that celebrate the history, language, and traditions of the people of Osun State."
+      },
+      {
+        "title": "Community Building",
+        "description": "Fostering a strong bond and sense of belonging among Osun State students through social and networking events."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "fibsu",
     "name": "FIBSU",
     "image": "/assets/ibadan.jpg",
-    "description": "Federation of Ibarapa Students Union – connecting students of Ibarapa descent."
-  },
-  {
-    "id": "nlv",
-    "name": "NLV",
-    "image": "/assets/nlv.jpg",
-    "description": "Nigerian League of Voters – civic education and political engagement on campus."
-  },
-  {
-    "id": "liberal",
-    "name": "Liberal Club",
-    "image": "/assets/liberal.jpg",
-    "description": "A social and welfare group advocating student empowerment and equality."
+    "description": "Federation of Ibarapa Students Union – connecting students of Ibarapa descent.",
+    "about": "The Federation of Ibarapa Students' Union (FIBSU) unites students from the seven towns of the Ibarapa region of Oyo State. Our primary goal is to foster unity, promote educational advancement, and preserve the unique cultural identity of the Ibarapa people. We provide a platform for members to connect, collaborate, and contribute to the development of our home region.",
+    "activities": [
+      {
+        "title": "Member Support & Empowerment",
+        "description": "Offering academic and social support systems to help students from the Ibarapa zone excel in their studies."
+      },
+      {
+        "title": "Community Development",
+        "description": "Initiating and participating in projects aimed at the progress and development of the Ibarapa community."
+      },
+      {
+        "title": "Cultural Identity",
+        "description": "Promoting the values, traditions, and history of the Ibarapa people through events and awareness campaigns."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "manOWar",
     "name": "Man O’ War",
-    "image": "/assets/man o war.jpg",
-    "description": "Building courage, leadership, and community defense through paramilitary training."
+    "image": "./assets/man o war.jpg",
+    "description": "Building courage, leadership, and community defense through paramilitary training.",
+    "about": "Man O' War Nigeria is a voluntary, non-governmental organization focused on community service, leadership, and citizenship training. The LAUTECH command is dedicated to developing physically and mentally resilient leaders. We instill values of courage, discipline, and patriotism while actively contributing to campus security and community development.",
+    "activities": [
+      {
+        "title": "Citizenship & Leadership Training",
+        "description": "Developing responsible citizens and leaders through rigorous physical exercises, drills, and character-building programs."
+      },
+      {
+        "title": "Community Service",
+        "description": "Actively participating in campus sanitation, security patrols, and community development projects."
+      },
+      {
+        "title": "Emergency & Crowd Management",
+        "description": "Providing support during campus events to ensure safety, order, and emergency readiness."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
   },
   {
     "id": "jci",
     "name": "JCI",
     "image": "/assets/jci.png",
-    "description": "Junior Chamber International – inspiring young leaders through impactful projects."
-  },
-  {
-    "id": "usf",
-    "name": "USF",
-    "image": "/assets/usf.jpg",
-    "description": "Uniting students of faith through outreach, prayer, and charity programs."
+    "description": "Junior Chamber International – inspiring young leaders through impactful projects.",
+    "about": "Junior Chamber International Nigeria (JCIN) LAUTECH Chapter is a vibrant community of young active citizens dedicated to leadership development and community service. Through impactful projects, workshops, and collaborations, our members learn to become changemakers. As part of the global JCI network, we offer unmatched opportunities for networking and personal growth.",
+    "activities": [
+      {
+        "title": "Leadership Training",
+        "description": "We groom students through seminars, workshops, and mentorship programs to become capable leaders."
+      },
+      {
+        "title": "Community Projects",
+        "description": "Our members initiate impactful projects that address social challenges and improve lives."
+      },
+      {
+        "title": "Networking & Growth",
+        "description": "We connect with global leaders and like-minded changemakers through JCI’s international network."
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/jcinlautech",
+      "twitter": "https://twitter.com/jcinlautech",
+      "linkedin": "https://linkedin.com/company/jcin-lautech"
+    }
   },
   {
     "id": "rotaract",
     "name": "Rotaract Club",
     "image": "/assets/rotract.jpg",
-    "description": "A service-oriented club developing leadership and professional skills."
-  },
-  {
-    "id": "chess",
-    "name": "Chess Club",
-    "image": "/assets/chess.jpg",
-    "description": "Sharpening strategic thinking and focus through friendly tournaments."
-  },
-  {
-    "id": "blockchain",
-    "name": "Blockchain Club",
-    "image": "./assets/blockchain.jpg",
-    "description": "Exploring blockchain technology, cryptocurrency, and Web3 innovation."
+    "description": "A service-oriented club developing leadership and professional skills.",
+    "about": "The Rotaract Club of LAUTECH is a service-based organization for students and young professionals. Sponsored by Rotary International, we are dedicated to the motto 'Service Above Self.' Our club provides a platform for members to address community needs, enhance their professional skills, and connect with a global network of leaders who are passionate about making a difference.",
+    "activities": [
+      {
+        "title": "Community Service Projects",
+        "description": "Identifying community needs and executing impactful projects in areas like health, education, and sanitation."
+      },
+      {
+        "title": "Professional Development",
+        "description": "Enhancing members' professional and leadership skills through workshops, seminars, and networking events."
+      },
+      {
+        "title": "International Fellowship",
+        "description": "Connecting with a global network of young leaders to exchange ideas, foster goodwill, and collaborate on projects."
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/rotaractlautech",
+      "twitter": "https://twitter.com/rotaractlautech",
+      "linkedin": ""
+    }
   },
   {
     "id": "gdg",
     "name": "GDG LAUTECH",
     "image": "/assets/gdg.png",
-    "description": "Google Developer Group fostering developer learning and community growth."
+    "description": "Google Developer Group fostering developer learning and community growth.",
+    "about": "Google Developer Group (GDG) LAUTECH is a community of developers, tech enthusiasts, and students interested in Google's developer technologies. We aim to foster a vibrant tech ecosystem on campus by organizing meetups, workshops, and speaker sessions. Our goal is to create a space for learning, sharing knowledge, and networking with fellow developers and industry experts.",
+    "activities": [
+      {
+        "title": "Tech Workshops & Study Jams",
+        "description": "Organizing hands-on sessions on Google technologies like Android, Flutter, Firebase, and Google Cloud."
+      },
+      {
+        "title": "Community Building",
+        "description": "Fostering a collaborative environment where developers can connect, share ideas, and solve problems together."
+      },
+      {
+        "title": "Expert Speaker Sessions",
+        "description": "Inviting industry experts to share insights on the latest trends and best practices in the tech world."
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/gdglautech",
+      "twitter": "https://twitter.com/gdglautech",
+      "linkedin": "https://linkedin.com/company/gdg-lautech"
+    }
   },
   {
     "id": "dfc",
-    "name": "Developer Students Club (DSC/DFC)",
+    "name": "GDSC LAUTECH",
     "image": "/assets/dfc.jpg",
-    "description": "Empowering students with tech skills through workshops and collaboration."
-  },
-  {
-    "id": "aref",
-    "name": "AREF",
-    "image": "/assets/aref.jpg",
-    "description": "Advocates for educational reform and academic excellence on campus."
-  },
-  {
-    "id": "trafficControl",
-    "name": "Traffic Control Unit",
-    "image": "/assets/traffic.jpg",
-    "description": "Maintains order and safety in vehicular and pedestrian movement around campus."
+    "description": "Empowering students with tech skills through workshops and collaboration.",
+    "about": "Google Developer Student Clubs (GDSC) LAUTECH is a university-based community group for students interested in technology. Our mission is to bridge the gap between theory and practice by providing a platform for students to learn new skills, build real-world solutions for local problems, and grow as developers. We are open to all students, from beginners to advanced.",
+    "activities": [
+      {
+        "title": "Peer-to-Peer Learning",
+        "description": "Creating a space for students to learn and teach each other new tech skills in a friendly and collaborative setting."
+      },
+      {
+        "title": "Hands-On Projects",
+        "description": "Building real-world solutions for local community problems through initiatives like the annual Solution Challenge."
+      },
+      {
+        "title": "Skill Development Workshops",
+        "description": "Hosting workshops on a wide range of technical topics, from mobile and web development to cloud computing and AI."
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/gdsclautech",
+      "twitter": "https://twitter.com/gdsclautech",
+      "linkedin": "https://linkedin.com/company/gdsc-lautech"
+    }
   }
 ]
