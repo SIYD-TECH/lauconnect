@@ -118,7 +118,7 @@ async function fetchClubs() {
         <footer class="bg-[#2d0509] text-white py-10 px-6">
             <div class="max-w-7xl mx-auto text-center md:flex md:justify-between md:items-center">
                 <div class="mb-4 md:mb-0">
-                    <p class="text-sm opacity-80">&copy; 2025 LAUConnect — Connecting Students, Inspiring Change.</p>
+                    <p class="text-sm opacity-80">&copy; 2025 LAUConnect Connecting Students, Inspiring Change.</p>
                 </div>
                 <ul class="flex justify-center gap-6 text-sm">
                     <li><a href="/" class="opacity-80 hover:opacity-100 transition">Home</a></li>
@@ -128,6 +128,8 @@ async function fetchClubs() {
             </div>
         </footer>
     `;
+    }else{
+         document.getElementById("container").innerHTML ="Error club not found"
     }
   } catch (err) {
     console.log(err);

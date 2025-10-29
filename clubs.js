@@ -12,9 +12,12 @@ async function intializeApp() {
   const container = document.getElementById('card-container');
 
   function displayClubs(clubs) {
-    container.innerHTML =""
+    container.innerHTML = "";
     // this function receives a clubs parameter loops through the array and creates a div for each club
-    clubs.forEach(club => {
+    if( clubs == ""){
+      container.innerHTML = `<p style= "text-align:cente ; font-size: 40px; font-weight: bold;">NO CLUB FOUND</p>`
+    }else{
+      clubs.forEach(club => {
             container.innerHTML += `<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all hover:scale-103">
             <img src="${club.image}" alt="${club.name} loading="lazy"
                 class="w-full h-40 object-cover" />
@@ -30,6 +33,8 @@ async function intializeApp() {
             </div>
         </div>`;
     });
+    }
+    
   }
 
   searchInput.addEventListener('input', () => {
