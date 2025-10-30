@@ -158,7 +158,7 @@
   {
     "id": "manOWar",
     "name": "Man O’ War",
-    "image": "./assets/man o war.jpg",
+    "image": "/assets/man.jpg",
     "description": "Building courage, leadership, and community defense through paramilitary training.",
     "about": "Man O' War Nigeria is a voluntary, non-governmental organization focused on community service, leadership, and citizenship training. The LAUTECH command is dedicated to developing physically and mentally resilient leaders. We instill values of courage, discipline, and patriotism while actively contributing to campus security and community development.",
     "activities": [

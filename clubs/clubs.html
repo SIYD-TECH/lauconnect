@@ -11,16 +11,19 @@
 <body class="bg-[#fefefe] text-gray-800">
 
     <header class="sticky top-0 bg-white shadow-md z-50">
-        <nav class="flex items-center justify-between  lg:px-[70px] py-4">
+        <nav class="flex items-center justify-between sm:px-[30px]  lg:px-[70px] py-4">
 
             <!-- Logo + Brand -->
-            <div class="flex items-center cursor-pointer">
-                <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
-                <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
-            </div>
+            <a href="../index.html">
+                <div class="flex items-center cursor-pointer">
 
+                    <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
+                    <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
+
+                </div>
+            </a>
             <!-- Desktop Navigation -->
-            <div class="hidden lg:block">
+            <div class="hidden sm:block">
                 <ul class="flex text-[#800000] text-[18px] gap-[40px] font-semibold">
                     <li><a href="#home" class="hover:text-[#c0a062] transition-colors duration-300">Home</a></li>
                     <li><a href="#clubs" class="hover:text-[#c0a062] transition-colors duration-300">Clubs</a></li>
@@ -30,7 +33,7 @@
             </div>
 
             <!-- Mobile Menu Icon -->
-            <div id="mobile" class="lg:hidden flex flex-col gap-1.5 cursor-pointer group relative mr-10">
+            <div id="mobile" class="sm:hidden flex flex-col gap-1.5 cursor-pointer group relative mr-10">
                 <span id="topx" class=" w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
                 <span id="bottomx" class="w-[30px] h-[3px] bg-[#800000] rounded-lg group-hover:bg-[#c0a062]"></span>
                 <span id="disappear"
@@ -64,6 +67,41 @@
         class="py-16 px-6 max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
     </section>
+
+    <!-- Sidebar -->
+    <aside id="sidebar"
+        class="fixed top-0 left-[-100%] h-full w-64 bg-[#800000] text-white flex flex-col justify-between shadow-lg transition-all duration-300 overflow-hidden z-50 sm:hidden">
+
+        <!-- Logo -->
+        <div>
+            <div class="flex items-center px-6 py-6 border-b border-[#a05a5a]">
+                <img src="assets/la logo.png" alt="LAUConnect Logo" class="w-20 h-10">
+                <h2 class="text-2xl font-bold tracking-wide whitespace-nowrap">LAUConnect</h2>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="mt-6 flex flex-col">
+                <a class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    🏠 <span class="link-text">Home</span>
+                </a>
+                <a href="#clubs" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    🎓 <span class="link-text">Clubs</span>
+                </a>
+                <a href="#about" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    ℹ️ <span class="link-text">About</span>
+                </a>
+                <a href="#contact" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                    📞 <span class="link-text">Contact</span>
+                </a>
+            </nav>
+        </div>
+
+        <!-- Footer -->
+        <div class="px-6 py-6 border-t border-[#a05a5a] text-sm">
+            <p>© 2025 LAUConnect</p>
+            <p class="text-[#ffd700]">Building Community</p>
+        </div>
+    </aside>
 
     <!-- Footer Section-->
     <footer class="bg-gray-100 text-[#800000] py-16 px-6 lg:px-20">

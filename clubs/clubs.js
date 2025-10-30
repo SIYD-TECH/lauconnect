@@ -19,7 +19,7 @@ async function intializeApp() {
     }else{
       clubs.forEach(club => {
             container.innerHTML += `<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all hover:scale-103">
-            <img src="${club.image}" alt="${club.name} loading="lazy"
+            <img src= "${club.image}" alt="${club.name}" loading="lazy"
                 class="w-full h-40 object-cover" />
             <div class="p-4 relative">
                 <h3 class="text-xl font-semibold text-[#800000] mb-2">${club.name}</h3>
@@ -38,16 +38,46 @@ async function intializeApp() {
   }
 
   searchInput.addEventListener('input', () => {
-    const search = searchInput.value.trim().toLowerCase() // accepts the input and converts to lowercase.
-   const filterClubs =  allClubs.filter(club => {
+    const search = searchInput.value.trim().toLowerCase(); // accepts the input and converts to lowercase.
+    const filterClubs = allClubs.filter((club) => {
       const nameMatches = club.name.toLowerCase().includes(search); // c
 
       return nameMatches;
-    })
-    displayClubs(filterClubs) // f
+    });
+    displayClubs(filterClubs); //  calls the display function and accepts the arguement filteredclubs and then displays them
   })
 
-  displayClubs(allClubs) // calls the function and accepts the parameter allclubs that was fetched
+  displayClubs(allClubs) // calls the display function and accepts the parameter allclubs that was fetched
 }
 
 intializeApp()
+
+
+
+// MOBILE MENU TOGGLE
+
+document.getElementById("mobile").addEventListener("click", () => {
+  // document.getElementById("sidebar").classList.toggle("left-[100%]");
+
+  requestAnimationFrame(() => {
+    document.getElementById("sidebar").classList.toggle("left-0");
+    document.getElementById("sidebar").classList.toggle("left-[-100%]");
+  });
+
+  let topx = document.getElementById("topx");
+
+  topx.classList.toggle("absolute");
+  topx.classList.toggle("transition-all");
+  topx.classList.toggle("rotate-45");
+  topx.classList.toggle("origin-center");
+
+  let bottomx = document.getElementById("bottomx");
+  bottomx.classList.toggle("absolute");
+  bottomx.classList.toggle("transition-all");
+  bottomx.classList.toggle("-rotate-45");
+  bottomx.classList.toggle("origin-center");
+
+  document.getElementById("disappear").classList.toggle("hidden");
+  // document.getElementById("sidebar").classList.add("right-[0]");
+});
+

@@ -18,13 +18,17 @@
 
 <body class="bg-[#fefefe] dar:bg-black">
     <header class="sticky top-0 bg-white shadow-md z-50">
-        <nav class="flex items-center justify-between  lg:px-[70px] py-4">
+        <nav class="flex items-center justify-between sm:px-[30px]  lg:px-[70px] py-4">
 
             <!-- Logo + Brand -->
-            <div class="flex items-center cursor-pointer">
-                <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
-                <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
-            </div>
+            <a href="./index.html">
+                <div class="flex items-center cursor-pointer">
+            
+                    <img src="/assets/la logo.png" alt="logo" width="60" class="mr-2">
+                    <p class="text-[#800000] font-bold text-[1.5rem] lg:text-[1.8rem] tracking-tight">LAUConnect</p>
+            
+                </div>
+            </a>
 
             <!-- Desktop Navigation -->
             <div class="hidden lg:block">
@@ -50,7 +54,7 @@
 
     <!-- Sidebar -->
     <aside id="sidebar"
-        class="fixed top-0 left-[-100%] h-full w-64 bg-[#800000] text-white flex flex-col justify-between shadow-lg transition-all duration-300 overflow-hidden z-50">
+        class="fixed top-0 left-[-100%] h-full w-64 bg-[#800000] text-white flex flex-col justify-between shadow-lg transition-all duration-300 overflow-hidden z-50 sm:hidden">
 
         <!-- Logo -->
         <div>
@@ -61,7 +65,7 @@
 
             <!-- Navigation Links -->
             <nav class="mt-6 flex flex-col">
-                <a href="#home" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
+                <a class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
                     🏠 <span class="link-text">Home</span>
                 </a>
                 <a href="#clubs" class="px-6 py-3 hover:bg-[#a05a5a] transition font-medium flex items-center gap-3">
@@ -109,7 +113,7 @@
                         class="mt-4 bg-[#c0a062] cursor-pointer text-[#2d0509] px-8 py-3 rounded-lg font-semibold hover:bg-[#d8b878] transition-all duration-300 shadow-md">
                         Explore Clubs
                     </button </a>
-                   </a>
+                </a>
             </div>
         </section>
 
@@ -139,7 +143,7 @@
                         <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
                             Leadership & Service
                         </span>
-                        <a href="./jci.html?club=jci">
+                        <a href="./clubs/jci.html?club=jci">
                             <button
                                 class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition cursor-pointer">
                                 Learn More
@@ -161,7 +165,7 @@
                         <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
                             Indigenous & Cultural
                         </span>
-                        <a href="./jci.html?club=naossOgun">
+                        <a href="./clubs/jci.html?club=naossOgun">
                             <button
                                 class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition cursor-pointer">
                                 Learn More
@@ -183,7 +187,7 @@
                         <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
                             Technology & Impact
                         </span>
-                        <a href="./jci.html?club=dfc">
+                        <a href="./clubs/jci.html?club=dfc">
                             <button
                                 class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition cursor-pointer">
                                 Learn More
@@ -205,7 +209,7 @@
                         <span class="bg-[#800000] text-white px-2 py-1 text-xs rounded-lg whitespace-nowrap">
                             Leadership & Service
                         </span>
-                        <a href="./jci.html?club=manOWar">
+                        <a href="./clubs/jci.html?club=manOWar">
                             <button
                                 class="bg-[#FFD700] text-[#800000] px-3 py-1 rounded-lg text-sm font-semibold hover:bg-[#e6c400] focus:ring-2 focus:ring-[#800000]/30 transition cursor-pointer">
                                 Learn More
@@ -217,7 +221,7 @@
 
             <!-- See More Clubs Button -->
             <div class="text-center mt-16">
-                <a href="clubs.html"
+                <a href="./clubs/clubs.html"
                     class="inline-block bg-[#800000] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#a52a2a] transition transform hover:-translate-y-1 duration-300">
                     See More Clubs →
                 </a>

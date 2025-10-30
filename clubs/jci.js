@@ -32,7 +32,7 @@ async function fetchClubs() {
             <div class="max-w-7xl mx-auto grid lg:grid-cols-2 items-center gap-12 md:gap-16">
                 <div class="relative">
                     <div class="absolute -top-4 -left-4 md:-top-6 md:-left-6 w-full h-full bg-off-white rounded-3xl transform -rotate-3"></div>
-                    <img src="${clubToShow.image}" alt="${clubToShow.name}" class="relative rounded-3xl shadow-2xl w-full h-full md:h-fit lg:h-[600px] " />
+                    <img src="${clubToShow.image}" alt="${clubToShow.name}" class="relative rounded-3xl shadow-2xl w-full h-full md:h-fit lg:h-[600px]"/>
                 </div>
                 <div class="space-y-6 text-center lg:text-left">
                     <h2 class="text-3xl md:text-4xl font-bold text-maroon">About ${clubToShow.name}</h2>
@@ -44,7 +44,7 @@ async function fetchClubs() {
                         changemakers. As part of the global JCI network, we offer unmatched opportunities for networking
                         and personal growth.
                     </p>
-                    <a href="/clubs.html" class="inline-flex items-center mt-4 bg-maroon text-white px-8 py-3 rounded-full font-semibold hover:bg-maroon-dark shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <a href="./clubs.html" class="inline-flex items-center mt-4 bg-maroon text-white px-8 py-3 rounded-full font-semibold hover:bg-maroon-dark shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                         &larr; Back to Clubs
                     </a>
                 </div>
