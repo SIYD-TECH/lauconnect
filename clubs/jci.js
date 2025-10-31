@@ -121,9 +121,9 @@ async function fetchClubs() {
                     <p class="text-sm opacity-80">&copy; 2025 LAUConnect Connecting Students, Inspiring Change.</p>
                 </div>
                 <ul class="flex justify-center gap-6 text-sm">
-                    <li><a href="/" class="opacity-80 hover:opacity-100 transition">Home</a></li>
-                    <li><a href="/clubs.html" class="opacity-80 hover:opacity-100 transition">Clubs</a></li>
-                    <li><a href="/about.html" class="opacity-80 hover:opacity-100 transition">About</a></li>
+                    <li><a href="../index.html" class="opacity-80 hover:opacity-100 transition">Home</a></li>
+                    <li><a href="./clubs.html" class="opacity-80 hover:opacity-100 transition">Clubs</a></li>
+                    <li><a href="#about" class="opacity-80 hover:opacity-100 transition">About</a></li>
                 </ul>
             </div>
         </footer>
