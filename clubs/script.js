@@ -31,19 +31,20 @@ function submitEmail() {
     document.getElementById("sucess-message").innerHTML =
       "Please enter a valid email";
       setTimeout(() => {
-        document.getElementById("sucess-message").style.display = "none";
+        document.getElementById("sucess-message").innerHTML = "";;
       }, 5000);
   }else{
     if(emailSubmit.value.trim().includes("@") && emailSubmit.value.length > 7){
       document.getElementById("sucess-message").innerHTML = "You are subscribed";
+          emailSubmit.value = "";
       setTimeout(() => {
-        document.getElementById("sucess-message").style.display = "none";
+        document.getElementById("sucess-message").innerHTML = "";
       }, 5000);
     }else{
       document.getElementById("sucess-message").innerHTML =
-              "Enter a Valid email"; 
+        "Please enter a valid email"; 
           setTimeout( () => {
-            document.getElementById("sucess-message").style.display ="none"
+            document.getElementById("sucess-message").innerHTML = "";
           } , 5000)
     }
   }
