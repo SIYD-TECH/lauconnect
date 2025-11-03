@@ -4,7 +4,7 @@
     "name": "Red Cross",
     "image": "/assets/download.png",
     "description": "Dedicated to humanitarian services, first aid, and campus emergency response.",
-    "about": "The Nigerian Red Cross Society, LAUTECH Detachment, is a humanitarian organization driven by the mission to alleviate human suffering. Our members are trained volunteers committed to providing first aid during campus events, organizing health and safety campaigns, and responding to emergencies. We uphold the principles of humanity, impartiality, and neutrality in all our services.",
+    "about": "The Nigerian Red Cross Society, LAUTECH Detachment, is a dedicated humanitarian organization committed to alleviating human suffering and promoting the well-being of individuals within and beyond the university community. Comprising passionate and well-trained student volunteers, the detachment plays a vital role in providing first aid and emergency response services during campus events, health outreaches, and unforeseen incidents. In addition to offering life-saving assistance, the group actively engages in health education, safety awareness, and community service programs that promote a culture of care, preparedness, and compassion. Guided by the fundamental principles of Humanity, Impartiality, and Neutrality, the LAUTECH Detachment stands as a beacon of service and empathy, consistently working to uphold the values of the Red Cross Movement and contribute meaningfully to the welfare of society.",
     "activities": [
       {
         "title": "First Aid & Emergency Response",
@@ -30,7 +30,7 @@
     "name": "Cadet Corps",
     "image": "/assets/cadet.jpg",
     "description": "Instills discipline, leadership, and teamwork through drills and service.",
-    "about": "The LAUTECH Cadet Corps is a paramilitary student organization that focuses on building discipline, leadership, and a sense of duty. Members undergo rigorous physical and mental training, including drills and parades, to prepare them for leadership roles. We are primarily responsible for maintaining order and providing security protocol during official university functions like matriculation and convocation.",
+    "about": "The LAUTECH Cadet Corps is a distinguished paramilitary student organization dedicated to instilling discipline, leadership, and a strong sense of responsibility among its members. Through rigorous physical and mental training that includes drills, parades, and leadership exercises, the Corps equips students with essential qualities such as courage, resilience, teamwork, and respect for authority. Beyond personal development, the Cadet Corps plays a vital role in the university community by maintaining order, enforcing protocol, and ensuring security during official functions such as matriculations, convocations, and other ceremonial events. Guided by a commitment to excellence, service, and integrity, the LAUTECH Cadet Corps continues to nurture disciplined student leaders who embody loyalty, patriotism, and readiness to serve both the university and society at large.",
     "activities": [
       {
         "title": "Drills & Paramilitary Training",
@@ -56,7 +56,7 @@
     "name": "NAOSS (Ogun State)",
     "image": "/assets/ogun.jpg",
     "description": "Represents Ogun State students in LAUTECH and promotes unity and welfare.",
-    "about": "The National Association of Ogun State Students (NAOSS), LAUTECH Chapter, is the official body representing all indigenous students of Ogun State. Our mission is to foster unity, promote our rich cultural heritage, and advocate for the academic and social welfare of our members. We serve as a vital link between our students, the university management, and the Ogun State government.",
+    "about": "The National Association of Ogun State Students (NAOSS), LAUTECH Chapter, is the recognized umbrella body representing all students of Ogun State origin at the Ladoke Akintola University of Technology (LAUTECH). The association is deeply committed to fostering unity, promoting the rich cultural heritage of Ogun State, and advocating for the academic, social, and personal development of its members. Through various educational programs, cultural events, and welfare initiatives, NAOSS provides a strong platform for collaboration, mentorship, and mutual support among students. The association also serves as a vital bridge between the student community, the university administration, and the Ogun State government, ensuring that the interests and voices of its members are effectively represented. Guided by principles of integrity, service, and inclusivity, NAOSS, LAUTECH Chapter, continues to nurture a community of proud, purpose-driven Ogun State students who are dedicated to excellence and positive impact within and beyond the university environment.",
     "activities": [
       {
         "title": "Member Welfare & Support",
@@ -82,7 +82,7 @@
     "name": "FOSSU",
     "image": "/assets/fossu.jpg",
     "description": "Federation of Oyo State Students Union – promoting unity among Oyo indigenes.",
-    "about": "The Federation of Oyo State Students' Union (FOSSU) is the umbrella body for all students of Oyo State origin in LAUTECH. We are committed to uniting our members, celebrating our shared cultural identity, and ensuring their welfare. FOSSU actively engages in programs that support academic excellence and provide a strong sense of community for Oyo indigenes on campus.",
+    "about": "The Federation of Oyo State Students’ Union (FOSSU), LAUTECH Chapter, serves as the central body representing all students of Oyo State origin at the Ladoke Akintola University of Technology (LAUTECH). The union is dedicated to fostering unity, promoting cultural pride, and safeguarding the academic and social welfare of its members. Through educational initiatives, leadership development programs, and cultural events, FOSSU provides a platform that empowers students to excel both within and beyond the university. The association also works closely with the university administration and the Oyo State government to ensure that the voices and interests of its members are well represented. Upholding the values of excellence, integrity, and togetherness, FOSSU continues to strengthen the bond among Oyo State indigenes on campus while inspiring them to contribute meaningfully to the progress of their state and society.",
     "activities": [
       {
         "title": "Student Welfare",
@@ -108,7 +108,7 @@
     "name": "NAOSS (Osun State)",
     "image": "/assets/osun.jpg",
     "description": "Supports Osun State students through events, welfare, and cultural heritage.",
-    "about": "The National Association of Osun State Students (NAOSS), LAUTECH Chapter, is dedicated to the progress and unity of all students from Osun State. We strive to create a home away from home by promoting our cultural values, providing academic support, and advocating for the welfare of our members. Our association is a platform for personal development, networking, and collective empowerment.",
+    "about": "The National Association of Osun State Students (NAOSS), LAUTECH Chapter, is a vibrant student body committed to fostering unity, progress, and cultural pride among students of Osun State origin at the Ladoke Akintola University of Technology (LAUTECH). The association serves as a home away from home, providing a supportive environment where members can connect, learn, and grow academically, socially, and morally. Through various programs and initiatives, NAOSS promotes the preservation of Osun’s rich cultural heritage, offers mentorship and academic assistance, and champions the welfare and development of its members. It also provides a platform for leadership training, collaboration, and community service, enabling students to build strong networks and develop skills that prepare them for future opportunities. Guided by a spirit of unity and service, NAOSS, LAUTECH Chapter, continues to nurture purpose-driven individuals who represent the true values and excellence of Osun State both within and beyond the university community.",
     "activities": [
       {
         "title": "Welfare & Academic Support",
@@ -132,9 +132,9 @@
   {
     "id": "fibsu",
     "name": "FIBSU",
-    "image": "/assets/ibadan.jpg",
+    "image": "/assets/ibarapa.jpg",
     "description": "Federation of Ibarapa Students Union – connecting students of Ibarapa descent.",
-    "about": "The Federation of Ibarapa Students' Union (FIBSU) unites students from the seven towns of the Ibarapa region of Oyo State. Our primary goal is to foster unity, promote educational advancement, and preserve the unique cultural identity of the Ibarapa people. We provide a platform for members to connect, collaborate, and contribute to the development of our home region.",
+    "about": "The Federation of Ibarapa Students Association (FIBSA), LAUTECH Chapter, is a vibrant socio-cultural and educational organization established to unite and empower students of Ibarapa origin studying at the Ladoke Akintola University of Technology (LAUTECH). Rooted in the values of togetherness, excellence, and cultural pride, the association provides a platform where members can connect, learn, and grow both academically and personally. FIBSA is committed to promoting intellectual development through seminars, mentorship programs, and educational initiatives that inspire academic excellence and leadership. Beyond academics, the association actively fosters the preservation and celebration of Ibarapa’s rich cultural heritage through events, community outreach, and cultural displays that strengthen identity and pride among its members.",
     "activities": [
       {
         "title": "Member Support & Empowerment",
@@ -160,7 +160,7 @@
     "name": "Man O’ War",
     "image": "/assets/man.jpg",
     "description": "Building courage, leadership, and community defense through paramilitary training.",
-    "about": "Man O' War Nigeria is a voluntary, non-governmental organization focused on community service, leadership, and citizenship training. The LAUTECH command is dedicated to developing physically and mentally resilient leaders. We instill values of courage, discipline, and patriotism while actively contributing to campus security and community development.",
+    "about": "Man O’ War Nigeria, LAUTECH Command, is a voluntary and non-governmental organization committed to fostering leadership, discipline, and community development among students of the Ladoke Akintola University of Technology (LAUTECH). As part of the national Man O’ War movement, our command is dedicated to developing physically and mentally resilient individuals equipped with the skills and values needed for effective leadership and responsible citizenship. Members undergo regular training in teamwork, crisis response, and self-discipline while participating in activities that promote patriotism and service to humanity. Beyond training, the LAUTECH Command plays a vital role in maintaining order and assisting with campus security during major university events. Through its programs and outreach, Man O’ War continues to shape students into confident, service-oriented leaders committed to national development and community impact.",
     "activities": [
       {
         "title": "Citizenship & Leadership Training",
@@ -186,7 +186,7 @@
     "name": "JCI",
     "image": "/assets/jci.png",
     "description": "Junior Chamber International – inspiring young leaders through impactful projects.",
-    "about": "Junior Chamber International Nigeria (JCIN) LAUTECH Chapter is a vibrant community of young active citizens dedicated to leadership development and community service. Through impactful projects, workshops, and collaborations, our members learn to become changemakers. As part of the global JCI network, we offer unmatched opportunities for networking and personal growth.",
+    "about": "Junior Chamber International Nigeria (JCIN), LAUTECH Chapter, is a dynamic community of young active citizens committed to creating positive change within and beyond the university environment. As part of the global JCI network, we provide a platform for leadership development, social responsibility, and impactful community engagement. Our members are equipped with essential skills through workshops, seminars, and hands-on projects that promote innovation, teamwork, and ethical leadership. JCIN LAUTECH Chapter fosters collaboration with local and international partners to address social challenges while empowering students to become proactive leaders and responsible citizens. Through our initiatives, we inspire personal growth, professional excellence, and sustainable community impact.",
     "activities": [
       {
         "title": "Leadership Training",
@@ -212,7 +212,7 @@
     "name": "Rotaract Club",
     "image": "/assets/rotract.jpg",
     "description": "A service-oriented club developing leadership and professional skills.",
-    "about": "The Rotaract Club of LAUTECH is a service-based organization for students and young professionals. Sponsored by Rotary International, we are dedicated to the motto 'Service Above Self.' Our club provides a platform for members to address community needs, enhance their professional skills, and connect with a global network of leaders who are passionate about making a difference.",
+    "about": "The Rotaract Club of LAUTECH is a vibrant service-based organization comprising students and young professionals who are passionate about community development and personal growth. Sponsored by Rotary International, the club upholds the timeless motto “Service Above Self.” We provide a platform for members to identify and address pressing societal challenges through meaningful service projects, leadership training, and professional development programs. By engaging in community outreach, humanitarian initiatives, and collaborative partnerships, Rotaractors at LAUTECH develop essential leadership and interpersonal skills that prepare them for impactful careers and lifelong service. As part of a global network of change-makers, our members gain opportunities to connect, learn, and contribute to building a better world — one act of service at a time.",
     "activities": [
       {
         "title": "Community Service Projects",
@@ -238,7 +238,7 @@
     "name": "GDG LAUTECH",
     "image": "/assets/gdg.png",
     "description": "Google Developer Group fostering developer learning and community growth.",
-    "about": "Google Developer Group (GDG) LAUTECH is a community of developers, tech enthusiasts, and students interested in Google's developer technologies. We aim to foster a vibrant tech ecosystem on campus by organizing meetups, workshops, and speaker sessions. Our goal is to create a space for learning, sharing knowledge, and networking with fellow developers and industry experts.",
+    "about": "Google Developer Group (GDG) LAUTECH is a dynamic community of developers, innovators, and technology enthusiasts passionate about exploring and building with Google’s developer technologies. Our mission is to nurture a thriving tech ecosystem on campus by providing hands-on learning experiences, knowledge-sharing sessions, and opportunities for collaboration. Through workshops, hackathons, tech talks, and developer meetups, we empower students to enhance their technical skills and stay ahead in the rapidly evolving world of technology. GDG LAUTECH also serves as a bridge between students and the broader tech industry, helping members grow their professional network, collaborate on impactful projects, and become active contributors to the global developer community.",
     "activities": [
       {
         "title": "Tech Workshops & Study Jams",
@@ -264,7 +264,7 @@
     "name": "DFC LAUTECH",
     "image": "/assets/dfc.jpg",
     "description": "Empowering students with tech skills through workshops and collaboration.",
-    "about": "Google Developer Student Clubs (GDSC) LAUTECH is a university-based community group for students interested in technology. Our mission is to bridge the gap between theory and practice by providing a platform for students to learn new skills, build real-world solutions for local problems, and grow as developers. We are open to all students, from beginners to advanced.",
+    "about": "The Drug-Free Club (DFC), LAUTECH Chapter, is a health-oriented student organization committed to promoting a drug-free lifestyle and fostering a safe, healthy campus environment. The club focuses on creating awareness about the dangers of drug abuse through sensitization campaigns, seminars, and peer-education programs. We work closely with health professionals, counselors, and other student bodies to provide guidance, support, and rehabilitation information for students in need. Beyond advocacy, DFC LAUTECH empowers members to become ambassadors of positive change encouraging discipline, sound judgment, and personal responsibility as foundations for academic success and overall well-being.",
     "activities": [
       {
         "title": "Peer-to-Peer Learning",

@@ -26,6 +26,8 @@ document.getElementById("mobile").addEventListener("click", () => {
 
 let emailSubmit = document.getElementById("emailSubmit");
 // document.getElementById('sucess-message').style.display = 'none'
+
+
 function submitEmail() {
   if (emailSubmit.value.trim() === '') {
     document.getElementById("sucess-message").innerHTML =
@@ -51,4 +53,6 @@ function submitEmail() {
 }
 
 
-
+const submitContactEmail = (e) => {
+  e.preventDefault();
+}

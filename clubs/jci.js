@@ -39,11 +39,6 @@ async function fetchClubs() {
                     <p class="text-base md:text-lg leading-relaxed text-gray-600">
                         ${clubToShow.about}
                     </p>
-                    <p class="text-base md:text-lg leading-relaxed text-gray-600">
-                        Through impactful projects, workshops, and collaborations, our members learn to become
-                        changemakers. As part of the global JCI network, we offer unmatched opportunities for networking
-                        and personal growth.
-                    </p>
                     <a href="./clubs.html" class="inline-flex items-center mt-4 bg-maroon text-white px-8 py-3 rounded-full font-semibold hover:bg-maroon-dark shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                         &larr; Back to Clubs
                     </a>
