@@ -15,8 +15,9 @@ async function intializeApp() {
     container.innerHTML = "";
     // this function receives a clubs parameter loops through the array and creates a div for each club
     if( clubs == ""){
-      container.innerHTML = `<p style= "text-align:cente ; font-size: 40px; font-weight: bold;">NO CLUB FOUND</p>`
+     document.getElementById("error-message").classList.remove("hidden")
     }else{
+           document.getElementById("error-message").classList.add("hidden");
       clubs.forEach(club => {
             container.innerHTML += `<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all hover:scale-103">
             <img src= "${club.image}" alt="${club.name}" loading="lazy"

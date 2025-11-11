@@ -182,8 +182,34 @@
     }
   },
   {
+    "id": "IDGr",
+    "name": "IDGr",
+    "image": "",
+    "description": "Building courage, leadership, and community defense through paramilitary training.",
+    "about": "Man O’ War Nigeria, LAUTECH Command, is a voluntary and non-governmental organization committed to fostering leadership, discipline, and community development among students of the Ladoke Akintola University of Technology (LAUTECH). As part of the national Man O’ War movement, our command is dedicated to developing physically and mentally resilient individuals equipped with the skills and values needed for effective leadership and responsible citizenship. Members undergo regular training in teamwork, crisis response, and self-discipline while participating in activities that promote patriotism and service to humanity. Beyond training, the LAUTECH Command plays a vital role in maintaining order and assisting with campus security during major university events. Through its programs and outreach, Man O’ War continues to shape students into confident, service-oriented leaders committed to national development and community impact.",
+    "activities": [
+      {
+        "title": "Citizenship & Leadership Training",
+        "description": "Developing responsible citizens and leaders through rigorous physical exercises, drills, and character-building programs."
+      },
+      {
+        "title": "Community Service",
+        "description": "Actively participating in campus sanitation, security patrols, and community development projects."
+      },
+      {
+        "title": "Emergency & Crowd Management",
+        "description": "Providing support during campus events to ensure safety, order, and emergency readiness."
+      }
+    ],
+    "socials": {
+      "instagram": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  },
+  {
     "id": "jci",
-    "name": "JCI",
+    "name": "JCI LAUTECH",
     "image": "/assets/jci.png",
     "description": "Junior Chamber International – inspiring young leaders through impactful projects.",
     "about": "Junior Chamber International Nigeria (JCIN), LAUTECH Chapter, is a dynamic community of young active citizens committed to creating positive change within and beyond the university environment. As part of the global JCI network, we provide a platform for leadership development, social responsibility, and impactful community engagement. Our members are equipped with essential skills through workshops, seminars, and hands-on projects that promote innovation, teamwork, and ethical leadership. JCIN LAUTECH Chapter fosters collaboration with local and international partners to address social challenges while empowering students to become proactive leaders and responsible citizens. Through our initiatives, we inspire personal growth, professional excellence, and sustainable community impact.",
